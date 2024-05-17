@@ -3,8 +3,6 @@ Template pour avoir la base d'un projet avec un Back en Node.Js et un Front en R
 
 ## Site
 1- /: Home
-2- /login 
-3- /register
 ...
 7- *: Page d'erreur 404 pour les routes non définies.
 
@@ -23,11 +21,8 @@ mettre à jours les dépendances : ```npm install```
 lancer le site : ```npm start```
 
 ## API
-1- task/getall
-2- task/get/:id
-3- task/add/
-4- task/update/:id
-8- task/delete/:id
-9- login
-10- register
+1- /tasks --> Gets all tasks
+2- /task/:id --> Gets one tasks by ID
+3- /task/:id --> Update all tasks
+4- /task/:id --> Delete all tasks
 11- *: Page d'erreur 404 pour les routes non définies.
